@@ -298,7 +298,7 @@ html {
 img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+ transform: scale(1.1);
 }
 #services .service_item {
   flex-basis: 80%;
@@ -423,7 +423,7 @@ background-color: #2c3e50;
   transition: all 0.3s ease;
 }
 
-#projects .project_img::after {
+/* #projects .project_img::after {
   content: "";
   top: 0;
   left: 0;
@@ -433,7 +433,7 @@ background-color: #2c3e50;
 
   position: absolute;
   opacity: 0.7;
-}
+} */
 
 #about .about {
   display: flex;
